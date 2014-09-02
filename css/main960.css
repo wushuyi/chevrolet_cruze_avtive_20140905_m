@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrap{  width:100%;}
+
+#head{ height:100px;}
+#head a{ display:block;color:#7b7b7c; text-align:center; }
+#head a:hover{ text-decoration:none;}
+#head .try{ float:left; width:150px;}
+#head .try .iconTry{ width:82px; font-size:18px; margin:0 auto; padding:70px 0 0 0; background: url(../img/icon_1.png) no-repeat center 20px;}
+#head .logo{ float:left; width:340px;}
+#head .logo .iconLogo{ width:196px; height:100px; margin:0 auto; text-indent:-999px; overflow:hidden; background: url(../img/logo.png) no-repeat center center;}
+#head .menu{ float:right; width:150px;}
+#head .menu .iconMenu{ float:right; width:110px;padding:60px 0 0 0; font-size:28px; background: url(../img/icon_2.png) no-repeat center 20px;}
+/**/
+#main{ background:#000;height:1024px;}
+.idxKVBox ul{ position:absolute; z-index:0; left:0; top:0; height:100%; width:100%;}
+.idxKVBox ul li{ height:100%;background-size: cover; background-repeat:no-repeat; background-position:50% 0;}
+.idxKVBox ul li:nth-child(1){ background-image:url(../img/idx_kv1.jpg);}
+#mainNav a{ display:block; height:100px; font-size:16px; text-align:center;}
+#mainNav .switchTop{ position:fixed; top:0; width:100%; background: url(../img/320/icon_switch_1.png) no-repeat center center;}
+#mainNav .switchFoot{ position:fixed; bottom:0; width:100%;background: url(../img/320/icon_switch_2.png) no-repeat center center;}
+
+

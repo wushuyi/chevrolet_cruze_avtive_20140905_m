@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+#head { height: 50px; }
+#head .try .iconTry { width: 82px; height: 50px; font-size: 14px;}
+#head .try .iconTry b { display: block; height: 25px;background-size: 20px auto; }
+#head .logo .iconLogo { height: 50px; background-size:121px auto; }
+#head .menu .iconMenu { width: 55px; height: 50px; }
+#head .menu .iconMenu b {  height: 25px; }
+#head .menu .iconMenuCurr b { background: url(../img/320/icon_close.png) no-repeat 50% 50%; }
+*/
+/**/
+#main { }
+/*sectionCar*/
+
+/*sectionKV*/
+.idxKVBox .ulPic li { width: 320px; }
+.idxKVBox .ulPic li:nth-child(1) {  }
+.idxKVBox .ulPic li:nth-child(2) {  }
+.idxKVBox .ulPic li:nth-child(3) {  }
+
+/*sectionTry*/
+/*.contentCar {  }
+.car_nav ul li a{height:44px;line-height:44px; font-size:14px; }
+.car_nav ul li:nth-child(5) a{ background:url(../img/car_icon_05.png) no-repeat 50% 50%; background-size:10px 10px;}
+.car_kv .ulSwitch li{ width:10px; height:10px;}
+.car_kv .ulSwitch li a{ width:6px; height:6px;  border-radius:3px 3px 3px 3px;}*/
+/*.car_feature{ top:300px;}
+.car_feature ul li:nth-child(1) p:nth-child(1){ background:url(../img/car_icon_02.png) no-repeat 5px 5px; background-size:15px 15px;}
+.car_feature ul li:nth-child(2) p:nth-child(1){ background:url(../img/car_icon_03.png) no-repeat 5px 5px; background-size:15px 15px;}
+.car_feature ul li:nth-child(3) p:nth-child(1){ background:url(../img/car_icon_04.png) no-repeat 5px 5px; background-size:15px 15px;}
+.car_feature ul li p{ line-height:14px; font-size:12px;}
+.car_feature ul li p:nth-child(1){padding:5px 10px 5px 30px;}
+.car_feature ul li p:nth-child(2){ padding:5px 2px 5px 0px;}*/
+/**/
+/*.car_detail{ }
+.car_detail .cmnBox { width: 320px; }
+.car_detail .box1 .aPic1{left:30px; top:580px; width:137px; height: 71px;background:url(../img/car_malibu_img_01.jpg) no-repeat 0 0; background-size:137px 71px;}
+.car_detail .box1 .aPic2{right:30px; top:560px; width:137px; height: 71px;background:url(../img/car_malibu_img_02.jpg) no-repeat 0 0; background-size:137px 71px;}
+.car_detail .box1 .pWord{right:30px; top:640px; font-size:12px; line-height:20px;}
+.car_detail .box1 .pWord .s2{ font-size:14px;}
+.car_detail .box2 h4{left:20px; top:445px;font-size:22px; line-height:1.5em;}
+.car_detail .box2 .pWord{font-size:11px; line-height:20px;}
+.car_detail .box2 .pWord1{ left:20px; top:505px;}
+.car_detail .box2 .pWord2{ left:200px; top:405px; background:url(../img/car_icon_6.png) no-repeat 5px 5px; background-size:10px auto; padding:0 0 0 20px;}
+.car_detail .box3 h4{ left:20px; top:125px;font-size:22px; line-height:1.5em; }
+.car_detail .box3 .pWord{ left:20px; top:195px; color:#fff; font-size:12px; line-height:16px;}
+.car_detail .box3 .pTVC{left:20px; top:245px;}
+.car_detail .box3 .pTVC a{ background:url(../img/car_malibu_img_03.jpg) no-repeat 0 0; background-size:81px 46px; width:81px; height:46px;}*/
+/*.car_detail .box4 .ulSwitch{  left:0; bottom:110px; width:100%;}
+.car_detail .box4 .ulSwitch li{ width:10px; height:10px;}
+.car_detail .box4 .ulSwitch li a{ width:6px; height:6px;border-radius:3px 3px 3px 3px;}*/
+/*carColorBox*/
+/*.carColorBox .title{ left:25px; top:25px; width:104px;}
+.carColorBox .ulSwitch li{ width:45px; height:45px;}
+.carColorBox .ulSwitch li a{ width:33px; border-radius:19px 19px 19px 19px;}
+.carColorBox .ulSwitch li a b{width:30px; height:30px;border-radius:16px 16px 16px 16px;}
+.carColorBox .ulSwitch li:nth-child(1) a b{ border:2px solid #393939; background:#000000;}
+.carColorBox .ulSwitch li:nth-child(2) a b{ border:2px solid #360000; background:#9C1F1F;}
+.carColorBox .ulSwitch li:nth-child(3) a b{ border:2px solid #434343; background:#8a8a8a;}
+.carColorBox .ulSwitch li:nth-child(4) a b{ border:2px solid #516276; background:#192129;}
+.carColorBox .ulSwitch li:nth-child(5) a b{ border:2px solid #CECBC7; background:#F6F7F7;}
+.carColorBox .ulSwitch li:nth-child(6) a b{ border:2px solid #1D4E8D; background:#002068;}
+.carColorBox .ulSwitch li.liCurr a{ border:2px solid #fff;}
+*/
+/*activity*/
+.ulAct{ clear:both; padding:10px; background:#e3e3e3;overflow:hidden;}
+.ulAct li{ clear:both; overflow:hidden; padding:0 0 10px 0;}
+.ulAct li .box{ display: block; background:#fff; padding:0 10px 0 0;}
+.ulAct li .box .image{ display:block;float:left; padding:0 10px 0 0; position:relative; z-index:2;}
+.ulAct li .box .image img{display: block; width:150px; height: 75px;}
+.ulAct li .box .imageInfo{ position:relative; z-index:0; height:100px; background:url(../img/icon_drc_right.png) no-repeat 100% 50%; background-size:10px auto; }
+.ulAct li .box .imageInfo a{ color:#333;}
+.ulAct li .box .imageInfo a:hover{ color:#E5A800;}
+.ulAct li .box .imageInfo h3{ padding:10px; font-size:14px; font-weight:600; height:55px;}
+.ulAct li .box .imageInfo .data{ padding:0 0 0 10px; bottom:0; border-top:1px solid #EFEFEF; color:#666;line-height: 25px; }

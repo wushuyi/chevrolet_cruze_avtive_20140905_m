@@ -1,0 +1,154 @@
+/************** try-box ***************/
+.try_box{
+	width: 100%;
+	height: 154px;
+	background-color: #2B2B2B;
+}
+.try_box li{
+	width: 100%;
+	float: left;
+}
+.try_box .try_tit{
+	width: 100%;
+}
+.try_box .try_tit .trytit{
+	width: 110px;
+	height: 28px;
+	margin-left: 3%;
+	margin-bottom: 2px;
+	background-image: url("../img/cruze/try.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	float: left;
+}
+.try_box .newPostName{
+	width: 94%;
+	height: 32px;
+	margin-left: 3%;
+	margin-bottom: 4px;
+	color: white;
+	font-size: 14px;
+	line-height: 30px;
+	background: #2B2B2B;
+	border: 2px solid #E8AA0E;
+	border-radius: 2px;
+}
+.try_box .newPostPhone{
+	width: 94%;
+	height: 32px;
+	margin-left: 3%;
+	margin-bottom: 4px;
+	color: white;
+	font-size: 14px;
+	line-height: 30px;
+	background: #2B2B2B;
+	border: 2px solid #E8AA0E;
+	border-radius: 2px;
+}
+.try_box .newSubBtn{
+	display: block;
+	width: 94%;
+	margin-left: 3%;
+	height: 40px;
+	line-height: 36px;
+    color: #FFF;
+    font-size: 22px;
+	font-family: "雅黑";
+	background-color: #EDAD0D;
+	border: 2px solid #EDAD0D;
+}
+.try_box .newSubBtn:hover{
+	color: white;
+}
+.try_box .newSubBtn .word {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.try_box .newSubBtn .icon {
+    display: none;
+	/*
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    background: url('../img/320/icon_3.png') no-repeat scroll 50% 50% transparent;
+	border: 2px solid #B98604;
+	border-radius: 16px;
+	*/
+}
+
+/******** bt_try_box *********/
+.bt_try_box{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+.bt_try_box li{
+	width: 100%;
+	float: left;
+}
+.bt_try_box .boxTop {
+	padding-top: 20px;
+	text-align: center;
+	color: #7B7B7C;
+	margin-bottom: 18px;
+}
+.bt_try_box .boxTop h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+.bt_try_box .boxTop p {
+	font-size: 10px;
+}
+.bt_try_box .newPostName{
+	width: 90%;
+	margin-left: 5%;
+	color: white;
+	font-size: 14px;
+	height: 40px;
+	margin-bottom: 18px;
+	line-height: 40px;
+}
+.bt_try_box .newPostPhone{
+	width: 90%;
+	margin-left: 5%;
+	color: white;
+	font-size: 14px;
+	height: 40px;
+	margin-bottom: 18px;
+	line-height: 40px;
+}
+.bt_try_box .newSubBtn{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+    color: #FFF;
+    font-size: 22px;
+	background-color: #FCBB17;
+}
+.bt_try_box .newSubBtn:hover{
+	color: white;
+}
+.bt_try_box .newSubBtn .word {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.bt_try_box .newSubBtn .icon {
+    display: none;
+	/*
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    background: url('../img/320/icon_3.png') no-repeat scroll 50% 50% transparent;
+	border: 2px solid #B98604;
+	border-radius: 16px;
+	*/
+}

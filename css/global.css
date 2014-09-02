@@ -1,0 +1,50 @@
+@charset"utf-8";
+/* @Reset */
+html { margin: 0 auto; padding: 0; height: 100%; overflow-x:hidden;}
+body { margin: 0 auto; padding: 0; width: 100%; }
+* { margin: 0; padding: 0; outline: none; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, a, p, blockquote, th, td { margin: 0; padding: 0; vertical-align: baseline; }
+address, caption, cite, code, dfn, em, strong, th, var{ font-style: normal; font-weight: normal; }
+ol, ul ,li{ list-style: none; vertical-align:top;  }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+img { border:0; }
+/* ---------------------------------- */
+
+/* @HTML5 */
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, div, summary, mark { display:block; }
+/* ---------------------------------- */
+
+/* ---------------------------------- */
+
+/* @Global */
+
+* { font-weight: normal; font-style: normal; font-family: "微软雅黑";}
+.clr { clear:both; }
+.f_right { float:right; }
+.d_hide { display:none; }
+.d_show { display:block; }
+.t_right { text-align:right; }
+.imgBox { display:block; }
+/**遮罩层*/
+.filterAbs { position:fixed; _position:absolute; left:0; top:0; z-index:100; width:100%; height:100%; background:#000; filter:alpha(opacity=85); -moz-opacity:0.85; opacity:0.85; }
+/*loading*/
+.loadAbs { position:absolute; z-index:999; left:50%; margin-left:-50px; top:50%; margin-top:-50px; width:100px; height:100px; display:none; }
+/*.htmlScroll { scrollbar-face-color:#AED562; scrollbar-highlight-color:#AED562; scrollbar-3dlight-color:#759C2A; scrollbar-darkshadow-color:#354020; scrollbar-Shadow-color:#AED562; scrollbar-arrow-color:#FFF; scrollbar-track-color:#354020;
+	background:url(../img/link_img_03.png) no-repeat 0 0;
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='img/link_img_03.png');
+	border-bottom-right-radius:5px; border-bottom-left-radius:5px; -webkit-box-shadow:2px2px6px#000; -moz-box-shadow:2px2px6px#000;
+}*/
+/* @Font */
+a { color: #fff; text-decoration: none; cursor:pointer; }
+a:hover { color: #000; text-decoration:none; }
+.c_white { color: #fff; }
+.c_green { color: #AFD462; }
+.red { color: #b51304; }
+/*aLink*/
+.aLink { display: block; overflow: hidden; text-indent: -10000px; }
+.aLinkStyle { background: #000; filter: alpha(opacity=0); -moz-opacity: 0; opacity: 0; }
+
+
+.carInfo{color: #000000};
+

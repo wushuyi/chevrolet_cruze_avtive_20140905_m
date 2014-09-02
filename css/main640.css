@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+/*#head { height: 50px; }
+#head .try .iconTry { width: 82px; height: 50px; font-size: 14px;}
+#head .try .iconTry b { display: block;  height: 25px;background-size: 20px auto;  }
+#head .try .iconTry:hover b { }
+#head .logo { width: 200px; }
+#head .logo .iconLogo {height: 50px;background-size:145px auto;}
+#head .menu .iconMenu { width: 55px; height: 50px; }
+#head .menu .iconMenu b {height: 25px;background-size: 40px auto; }
+#head .menu .iconMenuCurr b {  }*/
+/**/
+/*sectionCar*/
+
+/*sectionKV*/
+/*.idxKVBox .ulPic li { width: 640px;  }
+.idxKVBox .ulPic li:nth-child(1) {}
+.idxKVBox .ulPic li:nth-child(2) { }
+.idxKVBox .ulPic li:nth-child(3) {  }*/
+/*sectionTry*/
+
+/***/
+/*.contentCar { }
+.car_kv{ position:relative; max-width:640px; margin:0 auto;}
+.car_kv .blank{ visibility:hidden; width:100%; }
+.car_kv .ulPic{ position:absolute; z-index:1; left:0; top:0; width:100%; height:100%; text-align:center;}
+.car_kv .ulPic li {background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; height:551px; }
+.car_kv .ulSwitch{ position:absolute; z-index:2; left:0; bottom:10%; width:100%; text-align:center;}
+.car_kv .ulSwitch li{ display:inline-block; width:20px; height:20px;}
+.car_kv .ulSwitch li a{ width:10px; height:10px; display:inline-block; margin:0 auto; background:#fff;  border-radius:5px 5px 5px 5px;}
+.car_kv .ulSwitch li.liCurr a{ background:#b90108; }
+.car_feature{ position:absolute; z-index:1; left:0; top:551px; width:100%; text-align:center;}
+.car_feature ul{ overflow:hidden; clear:both; background:#7b7b7c;}
+.car_feature ul li{ float:left; }
+.car_feature ul li p{ line-height:20px; font-size:18px; color:#fff; border-right:1px solid #959596;}
+.car_feature ul li p:nth-child(1){ text-align:left;padding:10px 10px 10px 30px;}
+.car_feature ul li p:nth-child(2){ text-align:right;padding:10px 10px 10px 30px;}
+.car_feature ul li:nth-child(1){width:33%; }
+.car_feature ul li:nth-child(2){width:33%; }
+.car_feature ul li:nth-child(3){width:34%; }
+.car_feature ul li:nth-child(1) p:nth-child(1){ background: url(../img/car_icon_02.png) no-repeat 5px 10px/20px 20px;}
+.car_feature ul li:nth-child(2) p:nth-child(1){ background: url(../img/car_icon_03.png) no-repeat 5px 10px/20px 20px;}
+.car_feature ul li:nth-child(3) p:nth-child(1){ background: url(../img/car_icon_04.png) no-repeat 5px 10px/20px 20px;}*/
+
+/*
+.car_nav{ position: fixed; z-index:3; left:0; bottom:0; width:100%; }
+.car_nav ul{ overflow:hidden; clear:both; background:#5d5c5c;}
+.car_nav ul li{ float:left;color:#fff; text-align:center;}
+.car_nav ul li a{ display:block; color:#fff;height:88px;line-height:88px; font-size:24px; border-right:1px solid #bfbfbf;}
+.car_nav ul li:nth-child(1){ width:15%;}
+.car_nav ul li:nth-child(2){ width:30%;}
+.car_nav ul li:nth-child(3){ width:15%;}
+.car_nav ul li:nth-child(4){ width:15%;}
+.car_nav ul li:nth-child(5){ width:25%; }
+.car_nav ul li:nth-child(5) a{ background:url(../img/car_icon_05.png) no-repeat 50% 50%/20px 20px; border-right:none;}
+*/
+/*
+.car_detail .cmnBox { width: 640px; }
+.car_detail .box1 .aPic1{ display:block; position:absolute; left:70px; top:1160px; width:274px; height: 142px;background:url(../img/car_malibu_img_01.jpg) no-repeat 0 0/274px 142px;}
+.car_detail .box1 .aPic2{ display:block; position:absolute; right:70px; top:1120px;width:274px; height: 142px;background:url(../img/car_malibu_img_02.jpg) no-repeat 0 0/274px 142px;}
+.car_detail .box1 .pWord{ display:block; position:absolute; right:70px; top:1270px; color:#fff; font-size:18px; line-height:40px;}
+.car_detail .box1 .pWord .s2{ font-size:22px; display:block; }
+.car_detail .box2 h4{ display:block; position:absolute; left:40px; top:890px;font-size:45px; line-height:1.5em; color:#fff; font-weight:600;}
+.car_detail .box2 h4 .en{ font-family:Arial, Helvetica, sans-serif; display:block; }
+.car_detail .box2 .pWord{ display:block; position:absolute; color:#fff; font-size:22px; line-height:40px;}
+.car_detail .box2 .pWord1{ left:40px; top:2930px; top:1010px;}
+.car_detail .box2 .pWord2{ left:397px; top:2720px; top:790px; background:url(../img/car_icon_6.png) no-repeat 0 10px; padding:0 0 0 30px;}
+.car_detail .box3 h4{ display:block; position:absolute; left:40px; top:280px;font-size:45px; line-height:1.5em; color:#fff; font-weight:600;}
+.car_detail .box3 h4 .en{ font-family:Arial, Helvetica, sans-serif; display:block; }
+.car_detail .box3 .pWord{ display:block; position:absolute;left:40px; top:380px; color:#fff; font-size:22px; line-height:32px;}
+.car_detail .box3 .pTVC{position:absolute;left:40px; top:480px;}
+.car_detail .box3 .pTVC a{ display:block;  background:url(../img/car_malibu_img_03.jpg) no-repeat 0 0/163px 92px; width:163px; height:92px;}
+.car_detail .box4 .ulSwitch{ position:absolute; z-index:2; left:0; bottom:110px; width:100%; text-align:center;}
+.car_detail .box4 .ulSwitch li{ display:inline-block; width:20px; height:20px;}
+.car_detail .box4 .ulSwitch li a{ width:10px; height:10px; display:inline-block; margin:0 auto; background:#fff;  border-radius:5px 5px 5px 5px;}
+.car_detail .box4 .ulSwitch li.liCurr a{  background:#b90108; }*/
+/*carColorBox*/
+/*.carColorBox .title{ left:45px; top:45px; width:208px;}
+.carColorBox .ulSwitch li{ width:90px; height:90px;}
+.carColorBox .ulSwitch li a{ width:66px; height:66px;border-radius:38px 38px 38px 38px;}
+.carColorBox .ulSwitch li a b{width:56px; height:56px;border-radius:32px 32px 32px 32px;}
+.carColorBox .ulSwitch li:nth-child(1) a b{ border:5px solid #393939; background:#000000;}
+.carColorBox .ulSwitch li:nth-child(2) a b{ border:5px solid #360000; background:#9C1F1F;}
+.carColorBox .ulSwitch li:nth-child(3) a b{ border:5px solid #434343; background:#8a8a8a;}
+.carColorBox .ulSwitch li:nth-child(4) a b{ border:5px solid #516276; background:#192129;}
+.carColorBox .ulSwitch li:nth-child(5) a b{ border:5px solid #CECBC7; background:#F6F7F7;}
+.carColorBox .ulSwitch li:nth-child(6) a b{ border:5px solid #1D4E8D; background:#002068;}
+.carColorBox .ulSwitch li.liCurr a{ border:5px solid #fff;}
+*/
+/*活动列表横版*/
+.ulAct{ clear:both; padding:0 0 10px 0; overflow:hidden; background:#e3e3e3; }
+.ulAct li{ float:left; width:160px; overflow:hidden; padding:10px 0 0 0;}
+.ulAct li .box{ background:#fff; padding:5px 5px; margin:0 5px;}
+.ulAct li .box .image{ clear:both; padding:0; position:relative; z-index:2;overflow:hidden;  height:80px;}
+.ulAct li .box .image img{ width:100%;}
+.ulAct li .box .imageInfo{position:relative; z-index:0; height:100px; background:url(../img/icon_drc_right.png) no-repeat 100% 50%;  background-size:10px auto;}
+.ulAct li .box .imageInfo a{ color:#333;}
+.ulAct li .box .imageInfo a:hover{ color:#E5A800;}
+.ulAct li .box .imageInfo h3{ padding:0 10px 0 0; font-size:14px; font-weight:600; height:55px;}
+.ulAct li .box .imageInfo .data{ border-top:1px solid #EFEFEF; color:#666; }
+
+
+
+
