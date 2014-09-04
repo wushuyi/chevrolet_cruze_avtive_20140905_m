@@ -5,184 +5,6 @@ $(function() {
         PageName: "",
         id: "",
         init: function() {
-            var _PageName = {
-                "/car-volt-color.html": {
-                    "name": "沃蓝达颜色",
-                    "id": "5"
-                },
-                "/car-camaro-color.html": {
-                    "name": "科迈罗颜色",
-                    "id": "6"
-                },
-                "/car-captiva-color.html": {
-                    "name": "科帕奇颜色",
-                    "id": "2"
-                },
-                "/car-malibu-color.html": {
-                    "name": "迈锐宝颜色",
-                    "id": "10"
-                },
-                "/car-trax_360.html": {
-                    "name": "创酷360",
-                    "id": "11"
-                },
-                "/car-epica-color.html": {
-                    "name": "景程颜色",
-                    "id": "9"
-                },
-                "/car-cruze-color.html": {
-                    "name": "科鲁兹颜色",
-                    "id": "7_6"
-                },
-                "/car-aveo-color.html": {
-                    "name": "爱唯欧颜色",
-                    "id": "3_4"
-                },
-                "/car-aveoold-color.html": {
-                    "name": "爱唯欧颜色",
-                    "id": "3_4"
-                },
-                "/car-sail-color.html#hb": {
-                    "name": "赛欧两厢颜色",
-                    "id": "4_1"
-                },
-				"/car-sail-color.html#nb": {
-                    "name": "赛欧三厢颜色",
-                    "id": "4_1"
-                },
-                "/car-volt.html": {
-                    "name": "沃蓝达车型",
-                    "id": "5"
-                },
-                "/car-camaro.html": {
-                    "name": "科迈罗车型",
-                    "id": "6"
-                },
-                "/car-captiva.html": {
-                    "name": "科帕奇车型",
-                    "id": "2"
-                },
-                "/car-malibu.html": {
-                    "name": "迈锐宝车型",
-                    "id": "10"
-                },
-                "/car-trax.html": {
-                    "name": "创酷车型",
-                    "id": "11"
-                },
-                "/car-epica.html": {
-                    "name": "景程车型",
-                    "id": "9"
-                },
-                "/car-cruze-hb.html": {
-                    "name": "科鲁兹车型",
-                    "id": "7_7"
-                },
-                "/car-cruze-nb.html": {
-                    "name": "科鲁兹车型",
-                    "id": "7_6"
-                },
-                "/car-cruze-new-color.html": {
-                    "name": "科鲁兹车型",
-                    "id": "7_6"
-                },
-                "/car-aveo.html": {
-                    "name": "爱唯欧车型",
-                    "id": "3_4"
-                },
-                "/car-aveoold.html": {
-                    "name": "爱唯欧车型",
-                    "id": "3_4"
-                },
-                "/car-sail-hb.html": {
-                    "name": "赛欧两厢车型",
-                    "id": "4_1"
-                },
-                "/car-sail-nb.html": {
-                    "name": "赛欧三厢车型",
-                    "id": "4_2"
-                },
-                "#car-volt": {
-                    "name": "沃蓝达配置价格",
-                    "id": "5"
-                },
-                "#car-camaro": {
-                    "name": "科迈罗配置价格",
-                    "id": "6"
-                },
-                "#car-captiva": {
-                    "name": "科帕奇配置价格",
-                    "id": "2"
-                },
-                "#car-malibu": {
-                    "name": "迈锐宝配置价格",
-                    "id": "10"
-                },
-				"#car-fromMalibuhistory": {
-                    "name": "迈锐宝配置价格",
-                    "id": "10"
-                },
-                "#car-trax": {
-                    "name": "创酷配置价格",
-                    "id": "11"
-                },
-                "#car-epica": {
-                    "name": "景程配置价格",
-                    "id": "9"
-                },
-                "#car-cruze-hb": {
-                    "name": "科鲁兹配置价格",
-                    "id": "7_6"
-                },
-                "#car-cruze-nb": {
-                    "name": "科鲁兹配置价格",
-                    "id": "7_7"
-                },
-                "#car-aveo": {
-                    "name": "爱唯欧配置价格",
-                    "id": "3_4"
-                },
-                "#car-aveoold": {
-                    "name": "爱唯欧配置价格",
-                    "id": "3_4"
-                },
-                "#car-sail-hb": {
-                    "name": "赛欧两厢配置价格",
-                    "id": "4_1"
-                },
-                "#car-sail-nb": {
-                    "name": "赛欧三厢配置价格",
-                    "id": "4_2"
-                }
-            };
-            var LocationPathname = window.location.pathname;
-            var LocationHash = window.location.hash;
-            for (var i in _PageName) {
-                if (LocationPathname == i) {
-
-                    total.PageName = _PageName[i].name;
-                    total.id = _PageName[i].id;
-                   // console.log("name: " + total.PageName + "id: " + total.id);
-                    if (LocationPathname == "/try.html") {
-                        total.PageName = "预约试驾";
-                        //console.log("name: " + total.PageName + "id: " + total.id);
-                    }
-                    return;
-                } else if (LocationHash == i) {
-                    total.PageName = _PageName[i].name;
-                    total.id = _PageName[i].id;
-                    //console.log("name: " + total.PageName + "id: " + total.id);
-                    if (LocationPathname == "/try.html") {
-                    	total.PageName = "预约试驾";
-                        //console.log("name: " + total.PageName + "id: " + total.id);
-                    }
-                    return;
-                } else {
-                    total.PageName = "预约试驾";
-                    total.id = "";
-                    //console.log("name: " + total.PageName + "id: " + total.id);
-                }
-            }
 
         },
         run: function() {
@@ -208,17 +30,10 @@ $(function() {
         var name = $(this).parent().find('.newPostName');
         var phone = $(this).parent().find('.newPostPhone');
         var thisbox = $(this).parent().attr("class");
-        if (thisbox == "bt_try_box") {
-            boxname = '底部';
-        } else {
-            boxname = '头部';
-        }
 
         //有效点击提交统计
         if (name.val().length != 0 || phone.val().length != 0) {
-            _gaq.push(['_trackEvent', "try", 'click', total.PageName + '页面点击' + boxname + '预约试驾']);
-            mz.event(total.PageName + '页面点击' + boxname + '预约试驾');
-           // console.log(total.PageName + '页面点击' + boxname + '预约试驾');
+            mz.event('手机端-经典科鲁兹官网-立即申请');
         }
 
         //var subloading =  $(this).parent().find('.subloading');
@@ -266,50 +81,17 @@ $(function() {
 
             subloading.hide(env);
 
-            /* 请将 LabelValue 替换为对应字段的取值 */
-            /*
-            var CARIDARR = {
-                malibu: "10",
-                aveo: "3_4",
-                "cruze": "7_6",
-                "cruze-nb": "7_7",
-                captiva: "2",
-                camaro: "6",
-                epica: "9",
-                "sail": "4_1",
-                "sail-nb": "4_2",
-                volt: "5",
-                trax: "11"
-            };
-            */
 			mz.trycar(cccdata.name,cccdata.mobile,data.record_id);
 
             if (data.result == "success") {
 
                 if (data.jsonResponse == 0) { //缺少参数
-                    //$(".testdriveWrap .fm_message").text("缺少参数");
                 } else if (data.jsonResponse == 1) { //success
                     //预约成功提交统计
-                    _gaq.push(['_trackEvent', "try", 'click', total.PageName + '页面点击' + boxname + '预约试驾成功']);
-                    mz.event(total.PageName + '页面点击' + boxname + '预约试驾成功');
-                    //console.log(total.PageName+'页面点击'+boxname+'预约试驾成功');
+                    mz.event('手机端-经典科鲁兹官网-立即申请-预约试驾成功');
 					window.myname=name.val();
 					window.myphone=phone.val();
-                    _smq.push(['custom', '预约试驾', '提交成功', "CH" + data.record_id + "+" + name.val() + "+" + phone.val()]);
-					if(window.location.href.indexOf('car-aveo.html') > 0){
-						var oBox=$(".alert_box2");
-						oBox.attr({"id":"alert_success"});
-						oBox.find(".notice_img").html('<p>“预约成功</p>赶快试试手气吧！”');						
-						choujian(window.myname,window.myphone);
-						aveoFn.lock = true; // 锁屏
-						var pubmask = $('#pubMask'); // 公共浮层 遮罩
-						var popbox = $('#popbox2'); // 浮沉内容 1
-						pubmask.css({'top': '0px', 'z-index': '99'});
-						popbox.css({'top': '0px', 'z-index': '100'});
-						mz.event('手机端-爱唯欧官网-刮奖区');
-					}else{
-						alert("预约成功!");
-					}
+                    alert("预约成功!");
                     name.val('');
                     phone.val('');
                     //品友
