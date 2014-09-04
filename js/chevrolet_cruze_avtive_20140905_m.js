@@ -45,4 +45,9 @@ $(function () {
             jackyFn.loadingFn("no");
         }
     });
+	$(".chese").click(function(e){
+		e.preventDefault();
+		jackyFn.coming();
+		return false;
+	});
 });
