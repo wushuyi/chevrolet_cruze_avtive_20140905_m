@@ -67,16 +67,6 @@
 }
 .try_box .newSubBtn .icon {
     display: none;
-	/*
-	float: right;
-	margin-right: 20px;
-	margin-top: 10px;
-    width: 30px;
-    height: 30px;
-    background: url('../img/320/icon_3.png') no-repeat scroll 50% 50% transparent;
-	border: 2px solid #B98604;
-	border-radius: 16px;
-	*/
 }
 
 /******** bt_try_box *********/
@@ -141,14 +131,4 @@
 }
 .bt_try_box .newSubBtn .icon {
     display: none;
-	/*
-	float: right;
-	margin-right: 20px;
-	margin-top: 10px;
-    width: 30px;
-    height: 30px;
-    background: url('../img/320/icon_3.png') no-repeat scroll 50% 50% transparent;
-	border: 2px solid #B98604;
-	border-radius: 16px;
-	*/
 }
